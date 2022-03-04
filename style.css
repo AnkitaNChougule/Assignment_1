@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* For Nav Bar page*/
+.main{
+    background-color:#203354; 
+    padding: 50px;  
+    overflow: auto;
+    color: white;
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-transform: uppercase;                
+}
+.li,a{
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      padding: 5px 10px 5px;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+}
+button{
+   margin: 5px 10px 5px;
+   padding: 12px 30px;
+   color: white;
+   border-radius: 20px;
+   font-size: 10px;
+   letter-spacing: 1.5px;
+   cursor: pointer;
+}
+#login_btn{
+   border: 1px solid white;
+   background:none;
+}
+.btn{
+     background-color:#00ADF2;
+     outline: none;
+     border: none;
+   
+}
+#login_btn:hover{
+    background-color:beige;
+}
+button:hover{
+    text-decoration: underline;
+}
+#submain{
+    margin-bottom: 50px;
+    margin-top: 50px; 
+}
+.subtext{
+    line-height: 30px;
+}
+#text, iframe{
+   display: inline-block;
+   margin-left: 50px;
+   
+}
+iframe{
+    margin-left: 10%;
+}
+/*For Code Review Page*/
+#code{
+    text-align: center;
+    margin-top: -40px;
+    padding: 15px;
+    background-color:  #f7f7f7;
+}
+.code_top{
+    color:  #1d2953; 
+    font-size: 36px;   
+    margin-bottom: 1rem;
+}
+#table{
+   
+    width: 100%;
+    padding: 20px;
+    border-spacing: 30px;
+    font-size: 17px;
+    margin-left: 10px; 
+    text-align: left;
+    
+}
+
+th{
+    font-size: 20px;
+} 
+/*for Importance of static code analysis tool! page*/
+
+#imp{
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+
+}
+.img{
+    width: 25px;
+    height: 20px;
+    
+}
+
+#imp_table{
+    text-align: center;
+    font-weight: bold;
+}
+
+/*for Awards Page*/
+#award{
+    text-align: center;
+    background-color: #203354;
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+
+}
+#award_img,#desc{
+    width: 530px;
+    height: 250px;
+    display: inline-block;
+}
+#desc{
+    font-size: 21px;
+    margin-left: 20px;
+    text-align: left;
+}
+/*Simplifying Code Reviews*/
+#spl_code{
+    text-align: center;
+    padding: 20px;
+}
+#spl_desc,#spl_img{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+#spl_img{
+    width: 550px;
+    height: 280px;
+    float: right;
+    margin-right: 5%;
+    box-shadow: 0 15px 10px #777;
+  
+}   
+#spl_desc{
+    text-align: left;
+    font-size: 16px;
+    padding: 15px;
+    line-height: 30px;
+    
+}
+/*For Flow Chart Page*/
+#flow{
+    background-color:  #f7f7f7;
+    display: inline-block;
+    width: 100%;
+   
+}
+.flow_img,.flow_desc,#slack_desc,#slack_img{
+    
+    display: inline-block;
+    margin-top: 80px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.flow_desc{
+    float:right;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+    margin-top: 10%;
+    width: 450px;
+    margin-right: 10%;
+    line-height: 30px;
+}
+.flow_img{
+    margin-left: 60px;
+    box-shadow: 0 15px 10px #777;
+    width: 600px;
+}
+/*  For Slack page*/
+#slack{
+    display: inline-block;
+}
+#slack_desc{
+    width: 450px;
+    margin-left:80px;
+    padding: 15px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 10%;
+}
+#slack_img{
+    width: 600px;
+    float: right;
+    margin-left: 40px;
+    box-shadow: 0 15px 10px #777;
+}
+/*For Dashboard page*/
+#dash{
+    background-color: #f7f7f7;
+}
+/*For Languages page*/
+#lang_table{
+    width: 85%;
+    color: #203354;
+}
+/*For Security Standards page*/
+.security{
+    font-size:18px ;
+    color: #203354;
+    text-align: center;
+    background-color:  #f7f7f7;
+    padding: 20px;
+}
+#secure_table{
+    padding:20px;
+    border-spacing: 20px;
+    width: 90%;
+    text-align: center;
+    line-height: 30px;
+    
+}
+#secure_tr
+{
+    font-size: 21px;
+    font-weight: bold;
+}
+/*for Hall of Fame! page*/
+.fame{
+    color: #1d2953;
+    padding: 20px;
+    font-size: 36px;
+    text-align: center;
+   
+}
+.fame_img{
+    margin-left: 20px;
+    padding: 20px;
+   
+}
+/*For Companies page*/
+#comp{
+    text-align: center;
+    background-color:  #f7f7f7;
+    padding-top: 20px;
+}
+#comp_table{
+    margin-left: 7%;
+}
+.comp_img{
+    width: 180px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: -50px;
+}
+.comp_top{
+    padding-bottom: 30px;
+}
+.comp_status,.comp_status1,.comp_status2{
+    display: inline-block;
+    margin:20px;
+    font-size: 23px;
+    color:#203354;
+    letter-spacing: 1px;
+}
+.comp_status1
+{
+    margin-right: 100px;
+}
+.comp_status2{
+    margin-left: 100px;
+}
+.h1{
+    font-size: 50px;
+}
+
+/*For Webinars and Interviews page*/
+.web1{
+   display: inline-block;
+   text-align: left;
+   width: 30%;
+   line-height: 30px;
+   background-color:azure;
+   margin-left: 10px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+   float: left;
+}
+.web_left{
+    margin-left: 50px;
+}
+.web_img{
+    width: 370px;
+    height: 200px;
+}
+.web_head{
+    font-size: 21px;
+    font-weight: bold;
+}
+.web_sub{
+    font-size: 17px;
+}
+
+/*For Automate page*/
+.automate{
+    background-color: #f7f7f7;
+}
+.btn_automate{
+    background-color: #203354;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+/*For Footer Page*/
+#footer{
+    background-color: #203354;
+    float: left;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 80px;
+}
+.fa-brands{
+    background-color: white;
+    border-radius: 50%;
+    color:#203354;
+    padding: 20px;
+}
+.footer_links li{
+    list-style: none;
+    display: inline-block;
+}
+.footer_links a{
+    text-decoration: none;
+    margin:0px;
+    padding: 0px;
+}
